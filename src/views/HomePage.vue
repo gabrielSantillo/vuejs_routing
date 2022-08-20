@@ -1,6 +1,7 @@
 <template>
     <div>
         <page-header></page-header>
+        <h1>This is the Home page of nothing</h1>
     </div>
 </template>
 
@@ -13,5 +14,7 @@ import PageHeader from '@/components/PageHeader.vue'
 </script>
 
 <style scoped>
-
+h1 {
+    color: blue;
+}
 </style>
